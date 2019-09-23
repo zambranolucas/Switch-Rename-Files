@@ -1,17 +1,9 @@
-Automatic Desktop Cleaner
-
-- Track desktop, if new file is added then move
-- move files
-- run in the background
-- System for file organization
-	- Folders for each file tyoe category (e.g Images, Video, Audio, Text etc.)
-	- Within folders we need to organise by date,
-		create subfolders with date as name something like
-		- 2019
-			September
-				9th
-- need to find all file types to check what file has been added	
-
-
-
-1. Activate env : "source venv/bin/activate"
+Switch rename file
+- A python automation idea
+- Automatic move and rename all file supposed to be in "MyFolder" to "NewFolder" on my personal Desktop
+- To work:
+	- Install all necessary packages and dipendencies
+	- Create a virtual enviornment 
+	- Run on shell "source venv/bin/activate" to activate the virtual env
+	- You should have the 2 two folders are used in the program
+	- Run on shell "python switch_rename_files.py"
